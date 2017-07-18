@@ -1,4 +1,4 @@
-#Calculating CAPM of a stock
+#Calculating Expected Return(CAPM) of a stock
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -24,6 +24,6 @@ print('Beta of PG is:', PG_beta)
 PG_expected_ret = 0.025 + PG_beta * 0.05 #Risk free return=2.5%, Risk premium=0.05% for PG
 
 
-print('CAPM of PG is:', PG_expected_ret)
+print('Expected Return(CAPM) of PG is:', PG_expected_ret)
 
 
